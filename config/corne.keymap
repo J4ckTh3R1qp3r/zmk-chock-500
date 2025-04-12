@@ -38,12 +38,12 @@
 / {
         chosen {
                 zmk,physical-layout = &foostan_corne_5col_layout;
-                zmk,battery = &vbatt;
+                // zmk,battery = &vbatt;
         };
-        vbatt: vbatt {
-                compatible = "zmk,battery-nrf-vddh";
-                label = "VBATT";
-        };
+        // vbatt: vbatt {
+        //         compatible = "zmk,battery-nrf-vddh";
+        //         label = "VBATT";
+        // };
         combos {
                 compatible = "zmk,combos";
                 combo_a_top {
